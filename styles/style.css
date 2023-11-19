@@ -1,5 +1,5 @@
 .header {
-  padding: 92px 49px 92px 51px;
+  padding: 92px 49px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -34,7 +34,6 @@
 
 .header-logo {
   justify-self: center;
-  margin-left: 2px;
   grid-column: 1/8;
   grid-row-start: 1;
 }
@@ -80,6 +79,9 @@
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .aligned-text {
@@ -117,10 +119,11 @@
 }
 
 .bet-button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   background-color: transparent;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -135,8 +138,8 @@
 
 .contacts {
   width: 240px;
-  height: 97px;
   line-height: 24.3px;
+  font-style: normal;
 }
 
 .contacts a:hover {
@@ -299,8 +302,8 @@
 
 .social {
   width: 240px;
-  height: 48px;
   display: flex;
+  gap: 35px;
   justify-content: space-between;
 }
 
