@@ -301,9 +301,8 @@
 }
 
 .social {
-  width: 240px;
   display: flex;
-  gap: 35px;
+  gap: 70px;
   justify-content: space-between;
 }
 
